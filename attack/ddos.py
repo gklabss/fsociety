@@ -4,7 +4,7 @@ import time
 
 def ddos_attack(url, power):
     """
-    Simulates a DDoS attack by sending concurrent requests to a target URL.
+    Simulate a DDoS attack by sending concurrent requests to a target URL.
     This is for educational purposes only.
     """
     def send_request(url):
