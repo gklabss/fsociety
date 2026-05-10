@@ -38,11 +38,11 @@ while True:
         if not url:
             print("URL cannot be empty!")
             continue
-        power = input("Type the amount of requests (1-100): ")
+        power = input("Type the amount of requests: ")
         try:
             power = int(power)
         except ValueError:
-            power = 10  # Default to 10 if invalid input
+            power = 100  # Default to 10 if invalid input
             print("Invalid power input, using default value of 10")
         result = dos_attack(url, power)
         print(f"Result: {result}")
@@ -51,7 +51,7 @@ while True:
         if not url:
             print("URL cannot be empty!")
             continue
-        power = input("Type the amount of requests (1-50): ")
+        power = input("Type the amount of requests: ")
         try:
             power = int(power)
         except ValueError:
