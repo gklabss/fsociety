@@ -40,4 +40,5 @@ This project is licensed under the **GNU General Public License v3.0**.
 - Credit to the original author (**Gaurav**) must be maintained.
 
 ## ⚠️ Disclaimer
-This toolkit is for **educational and ethical testing purposes only**. Unauthorized access to computer systems is illegal. Use responsibly.
+This toolkit is for **educational and ethical testing purposes only**. Unauthorized access to computer systems is illegal. Use responsibly.  note to all  my hacker buddeis 
+"take back the control╚(•⌂•)╝"
