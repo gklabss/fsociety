@@ -3,7 +3,7 @@ import time
 
 def dos_attack(url, power):
     """
-    Simulates a DOS attack by sending multiple requests to a target URL.
+    Simulate a DOS attack by sending multiple requests to a target URL.
     This is for educational purposes only.
     """
     try:
