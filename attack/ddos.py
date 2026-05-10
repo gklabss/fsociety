@@ -18,13 +18,6 @@ def ddos_attack(url, power):
         # Convert power to integer
         num_threads = int(power)
 
-        # Limit the number of threads for safety
-        if num_threads > 50:
-            num_threads = 50
-            print("Limiting to 50 threads for safety")
-
-        print(f"Starting DDoS simulation with {num_threads} threads")
-
         start_time = time.time()
         results = []
 
