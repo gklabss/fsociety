@@ -13,7 +13,7 @@ This is a Python-based cybersecurity toolkit containing various modules for pene
 To use these tools, first clone the repository and install the necessary dependencies.
 
 ### Prerequisites
-- Python 3.x
+- Python 3.12
 - [Git](https://git-scm.com)
 
 ### Installation
